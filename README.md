@@ -1,6 +1,6 @@
 ## Shivam Jaiswal
 
-Backend and platform engineer — Go, Java, PostgreSQL, Angular. I build and run
+FullStack and platform engineer — Go, Java, PostgreSQL, Angular. I build and run
 [Tracktions](https://tracktions.com) solo, and work on internal AI developer
 tooling at BNY.
 
