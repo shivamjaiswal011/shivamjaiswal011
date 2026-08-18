@@ -35,6 +35,11 @@ our ODS datasets and microservices. Enterprise code, so none of it is public.
 
 ### Writing
 
+**[tracktions-architecture](https://github.com/shivamjaiswal011/tracktions-architecture)**
+— the decisions behind the system above, each with the condition that would
+reverse it. Why SSE and not WebSockets, why Redis got deleted rather than grown,
+where the design runs out of room.
+
 **[codebase-context-pilot](https://github.com/shivamjaiswal011/codebase-context-pilot)**
 — I built a code-graph context system to make coding agents cheaper on a
 354-file Go codebase, wrote the pass/fail rule before collecting any data,
