@@ -33,6 +33,16 @@ Internal AI developer tooling — an air-gapped marketplace for configurable AI
 skills and MCP servers, and a multi-agent LLM pipeline that automates UAT across
 our ODS datasets and microservices. Enterprise code, so none of it is public.
 
+### Writing
+
+**[codebase-context-pilot](https://github.com/shivamjaiswal011/codebase-context-pilot)**
+— I built a code-graph context system to make coding agents cheaper on a
+354-file Go codebase, wrote the pass/fail rule before collecting any data,
+measured it across 10 tasks, and shut it down when it missed. The repo is the
+full record: methodology, numbers, the two measurement bugs that invalidated the
+first pass, and what I'd try next. Verdict was no-go; the interesting parts are
+why, and the one task shape where it won decisively.
+
 ### Also here
 
 **[Competitive-Coding-From-scratch](https://github.com/shivamjaiswal011/Competitive-Coding-From-scratch)**
