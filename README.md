@@ -7,7 +7,7 @@ tooling at BNY.
 ### Tracktions — founder, sole engineer
 
 A trading journal platform for Indian retail traders on NSE/BSE. I built the
-whole thing: Go/Gin API on PostgreSQL, Angular 17 frontend, deployed on AWS.
+whole thing: Go/Gin API on PostgreSQL, Angular 20 frontend, deployed on AWS.
 
 Some decisions I'd defend:
 
@@ -19,9 +19,9 @@ Some decisions I'd defend:
   the queue in-process removed a whole moving part with no loss in throughput at
   current volume, and it's a decision I know how to reverse when it stops
   holding.
-- **Direct broker sync over manual entry.** Zerodha Kite integration plus
-  CSV/Excel import, because the fastest way to kill a journaling habit is to
-  make people type their trades in twice.
+- **Direct broker sync over manual entry.** Four live broker integrations —
+  Zerodha, Upstox, Dhan and Fyers — plus CSV/Excel import, because the fastest
+  way to kill a journaling habit is to make people type their trades in twice.
 
 Also: Razorpay subscription billing, AWS SES/S3/CloudWatch, JWT cookie sessions,
 35 schema migrations, ~350 Go files. Closed source — happy to walk through any
@@ -49,6 +49,12 @@ first pass, and what I'd try next. Verdict was no-go; the interesting parts are
 why, and the one task shape where it won decisively.
 
 ### Also here
+
+**[OneHealth](https://github.com/shivamjaiswal011/health-app)**
+— an offline-first training and nutrition tracker built for my own gym and diet.
+No server, no account; everything is computed and stored on the phone. Indian
+food database with household portions, progressive-overload challenge mode,
+308 tests. React Native / Expo.
 
 **[Competitive-Coding-From-scratch](https://github.com/shivamjaiswal011/Competitive-Coding-From-scratch)**
 — competitive programming resources and solutions collected while learning.
